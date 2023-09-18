@@ -1,0 +1,6 @@
+[repository]
+enable_branch = true
+
+[[tranforms]]
+path = 'README.md'
+replace = "version: {version}"
