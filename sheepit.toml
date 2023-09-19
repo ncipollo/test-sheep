@@ -1,6 +1,7 @@
 [repository]
 enable_branch = true
+enable_commit = true
 
-[[tranforms]]
+[[transforms]]
 path = 'README.md'
 replace = "version: {version}"
