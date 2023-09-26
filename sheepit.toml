@@ -2,6 +2,9 @@
 enable_branch = true
 enable_commit = true
 
+[[subprojects]]
+repo_url = "git@github.com:ncipollo/test-sub-sheep.git"
+
 [[transforms]]
 path = 'README.md'
 replace = "version: {version}"
