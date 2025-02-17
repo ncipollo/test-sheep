@@ -2,6 +2,9 @@
 enable_branch = true
 enable_commit = true
 
+[scripts]
+before_commit = "echo 'Before commit script'"
+
 [[subprojects]]
 repo_url = "git@github.com:ncipollo/test-sub-sheep.git"
 
