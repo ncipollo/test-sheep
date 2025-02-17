@@ -3,7 +3,7 @@ enable_branch = true
 enable_commit = true
 
 [scripts]
-before_commit = "echo 'Before commit script'"
+before_commit = "echo 'Before commit script' > before_commit.txt"
 
 [[subprojects]]
 repo_url = "git@github.com:ncipollo/test-sub-sheep.git"
